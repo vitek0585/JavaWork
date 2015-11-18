@@ -16,5 +16,9 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/Content/*.css</url-pattern>
+    </servlet-mapping>
 
 </web-app>
