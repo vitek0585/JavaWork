@@ -28,4 +28,13 @@ public class TestController extends Controller {
 
         View();
     }
+    public void Index() throws IOException, ServletException {
+        String message = "New Message";
+        req.setAttribute("say", message);
+
+        String name = req.getParameter("name");
+        req.setAttribute("name", name);
+
+        View();
+    }
 }
